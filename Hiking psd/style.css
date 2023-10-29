@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** UTILITIES CLASS **/
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.row {
+  display: flex;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.col-30 {
+  width: 30%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-20 {
+  width: 20%;
+}
+
+/** NAVBAR **/
+
+nav img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #54524f;
+  font-weight: 700;
+  font-family: "Open Sans";
+  padding: 0 40px;
+}
+nav ul li {
+  list-style: none;
+}
+nav button {
+  width: 10%;
+  height: 51px;
+  border-radius: 25px;
+  background-color: #7f7770;
+  padding-left: 95px;
+  opacity: 0.471;
+}
+nav {
+  margin: 15px 0;
+}
+.menu {
+  align-items: center;
+}
+
+/** SECTION-ONE **/
+
+.sec-one {
+  background-image: url(./img/BG\ IMG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sec-one-text h1 {
+  font-size: 3.75rem;
+  color: #deb37e;
+  font-weight: 800;
+  font-family: "Open Sans";
+  width: 25%;
+}
+.sec-one-text .p1 {
+  font-size: 1.56rem;
+  color: #54524f;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Open Sans";
+}
+.sec-one-text button {
+  width: 15%;
+  height: 47px;
+  border-radius: 21px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sec-one-text .p2 {
+  width: 30%;
+  font-size: 1.31rem;
+  letter-spacing: 1px;
+  color: #54524f;
+  font-style: italic;
+  font-family: "Open Sans";
+}
+.sec-one-text {
+  padding: 100px 0;
+}
+.sec-one {
+  padding: 50px;
+}
+
+/** SECTION-TWO **/
+
+.sec-two-h1 {
+  font-size: 2.19rem;
+  color: #e2a355;
+  font-weight: 800px;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 30px 0;
+}
+.sec-two-p {
+  font-size: 27px;
+  color: #7f7770;
+  font-weight: 400;
+  font-family: "Open Sans";
+  width: 53%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.sec-two-img1 h1,
+.col-50 h1,
+.col-50 .sec-four-text {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin: 15px 10px;
+}
+.sec-two-img1 p,
+.col-50 p {
+  font-size: 1.44rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin: 15px 10px;
+}
+.sec-two-img1 {
+  background-color: #54524f;
+  flex-direction: column;
+}
+.sec-two-img1 img {
+  height: 100%;
+  width: 100%;
+}
+.sec-text .sec-two-img1 p {
+  font-size: 1.44rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-bottom: 25px;
+}
+.sec-two-btn button {
+  font-size: 1.25rem;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: "Open Sans";
+  background-image: linear-gradient(
+    rgba(52, 52, 52, 0.7019607843137254) 0%,
+    rgba(67, 64, 55, 0.47058823529411764) 100%
+  );
+  border-radius: 21px;
+  border: none;
+  width: 430px;
+  height: 60px;
+  display: block;
+  margin: 70px auto;
+}
+.col-50 img {
+  width: 100%;
+  height: 100%;
+}
+
+/** SECTION-THREE **/
+
+.sec-three {
+  background-image: linear-gradient(
+    rgba(52, 52, 52, 0.7019607843137254) 0%,
+    rgba(67, 64, 55, 0.47058823529411764) 100%
+  );
+}
+.sec-three-bt button {
+  font-size: 1.25rem;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: "Open Sans";
+  border-radius: 21px;
+  border: none;
+  width: 430px;
+  height: 60px;
+  background-color: #e2a355;
+  margin-bottom: 80px;
+}
+.sec-three-text {
+  text-align: center;
+  margin: auto 0;
+}
+.col-50 h1 {
+  padding: 20px 0;
+}
+.col-50 p {
+  width: 75%;
+  margin: 40px auto;
+}
+
+/** SECTION-FOUR **/
+
+.sec-four {
+  background-color: #deb37e;
+}
+.sec-four h1 {
+  text-align: center;
+}
+.sec-four p {
+  text-align: center;
+}
+.sec-four button {
+  margin: 0 auto;
+  display: block;
+}
+.col-50 img {
+  height: 100%;
+  width: 100%;
+}
+.sec-four-text {
+  padding: 150px 0;
+}
+
+/** SECTION-FIVE **/
+
+.sec-five {
+  background-image: url(./img/gray\ color.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 100px 0;
+}
+.sec-five h1 {
+  font-size: 3.63rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+  padding-top: 30px;
+}
+.sec-five p {
+  width: 45%;
+  height: 188px;
+  font-size: 1.81rem;
+  color: #dbdbdb;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 50px auto;
+}
+
+/** SECTION-SIX **/
+
+.sec-six h1 {
+  font-size: 4.75rem;
+  color: #deb37e;
+  font-weight: 800;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: right;
+}
+.sec-six {
+  background-image: url(./img/six-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px;
+}
+.sec-six h2 {
+  font-size: 4.75rem;
+  color: #54524f;
+  font-weight: 800;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: right;
+}
+
+/** SECTION-SEVEN **/
+
+.col-30 h1 {
+  font-size: 2.1rem;
+  line-height: 33px;
+  color: #deb37e;
+  font-weight: 700;
+  font-family: "Open Sans";
+  padding: 40px 40px;
+}
+.col-30 p {
+  font-size: 1.2rem;
+  line-height: 25px;
+  color: #333d42;
+  font-weight: 400;
+  font-family: "Open Sans";
+  width: 77%;
+  padding: 10px 40px;
+}
+.col-30 {
+  display: block;
+}
+.sec-seven {
+  padding: 80px 0;
+}
+
+/** SECTION-EIGHT **/
+
+.sec-eight {
+  text-align: center;
+}
+.sec-eight-main {
+  background-color: #deb37e;
+}
+.sec-eight h1 {
+  font-size: 4.7rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.sec-eight p {
+  width: 1811px;
+  height: 210px;
+  font-size: 1.88rem;
+  color: #54524f;
+  font-weight: 400;
+  font-family: "Open Sans";
+  width: 65%;
+  margin: 30px auto;
+}
+
+/** SECTION-NINE **/
+
+.col-20 .sec-nine-lorem {
+  width: 130%;
+}
+.sec-nine {
+  background-color: #7f7770;
+  padding: 40px 0;
+  margin: 70px auto;
+}
+
+/** FOOTER **/
+
+.col-20 h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.col-20 i {
+  color: #ffffff;
+  padding-top: 15px;
+  padding-right: 10px;
+  font-size: 1.88rem;
+}
+
+.col-20 p {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.footer {
+  margin: 0 80px;
+}
